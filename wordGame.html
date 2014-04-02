@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Guessing Game</title>
+        <link href="wordGame.css" media="all" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h2>
+            Guess a Letter</h2>
+        <div>
+            <p class="letters" id="display">
+                &nbsp;</p>
+        </div>
+        <p>
+            <input class="letters" id="guess" maxlength="1" type="text" /></p>
+        <div>
+            <input id="guessbutton" type="button" value="GUESS" /></div>
+        <p>
+            Wrong Letters</p>
+        <p class="letters wrong" id="wrong">
+            &nbsp;</p>
+        <p class="letters wrong" id="result">
+            &nbsp;</p>
+        <progress id="indicator" max="10" value="0">
+            &nbsp;</progress>
+        <div>
+            <input id="restart" type="button" value="RESTART" /></div>
+        <script async src="wordGame.js"></script></body>
+</html>
